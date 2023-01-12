@@ -4,7 +4,7 @@ const cors = require("cors");
 // Create App
 const app = express();
 // This should be change for env variables
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 const HelloWorldRoute = require("./routes/HelloWorld/helloWorld");
 
